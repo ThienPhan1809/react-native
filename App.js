@@ -8,6 +8,8 @@ export default function App() {
       <CatagoryListItem title = 'Trượt tuyết' />
       <CatagoryListItem title = 'aaaa' />
       <CatagoryListItem title = 'Hello' />
+      <CatagoryListItem title = 'Hello' />
+      <CatagoryListItem title = 'Hello' />
     </ScrollView>
   );
 }
