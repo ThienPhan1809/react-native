@@ -11,9 +11,7 @@ function CategoryListItem(props) {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 0.5,
     alignItems: "center",
-    // justifyContent: 'center',
     padding: 16,
     borderRadius: 8,
     backgroundColor: "#FFF",
@@ -21,7 +19,8 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 12,
     shadowOffset: { width: 0, height: 0 },
-    marginBottom: 16
+    marginVertical: 8,
+    marginHorizontal: 16
   },
   title: {
     fontSize: 18,
